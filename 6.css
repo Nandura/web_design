@@ -1,0 +1,23 @@
+.header{
+    width: 100%;
+    height: 200px;
+    background: red;
+}
+.left_side{
+    width: 30%;
+    height: 300px;
+    background: rgb(235, 7, 113);
+    float: left;
+}
+.right_side{
+    width: 100%;
+    height: 300px;
+    background: rgb(55, 114, 138);
+    
+}
+.footer{
+   width: 100%;
+   height: 60px;
+   background: rgb(177, 214, 9);
+    
+}

@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background: rgb(235, 81, 171);
+}
+.login{
+
+    width: 50%;
+    height: 250px;
+    background: rgb(242, 241, 243);
+    float: left;
+
+}
+.message{
+    width: 50%;
+    height: 250px;
+    background: rgb(166, 228, 166);
+    float: left;
+}
+.fotter{
+    width: 100%;
+    height: 100px;
+    background: aqua;
+    float :left;
+}
+.logo{
+    width: 50%;
+    padding-top: 32px;
+    float: left;
+}
+.detail{
+    color: white;
+    width: 50%;
+    float:left
+
+}
+.login_action{
+    color: antiquewhite;
+    font-size:85%;;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+    text-align: center;
+}
+.login-head{
+    text-align: center;
+    color: black;
+
+}

@@ -1,0 +1,24 @@
+.clacu{
+    width: 400px;
+    height: 400px;
+    background: gray;
+    margin-left: 200px;
+}
+#screen{
+    width: 223px;
+    height: 50px;
+    margin-top: 18px;
+    pointer-events: none;
+    margin-left: 84px;
+}
+.button_display{
+    width: 56px;
+    height: 45px;
+    background-color: aquamarine;
+}
+.row{
+    padding: 9px;
+    padding-left: 80px;
+    padding-top: 10px;
+
+}

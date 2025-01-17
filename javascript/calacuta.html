@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js"></script>
+</head>
+<body>
+    <div class="main_page">
+        <div class="clacu">
+            <div class="output">
+                <input type="text" id="screen">
+            </div>
+            <div class="button_style">
+                
+                <div class ="row">
+                    
+                    <button onclick="displayscreen(7)" class="button_display">7</button>
+                    <button onclick="displayscreen(8)" class="button_display">8</button>
+                    <button onclick="displayscreen(9)" class="button_display">9</button>
+                    <button onclick="displayscreen('/')" class="button_display">/</button>
+                </div>
+                <div class ="row">
+                    <button onclick="displayscreen(6)" class="button_display">6</button>
+                    <button onclick="displayscreen(5)" class="button_display">5</button>
+                    <button onclick="displayscreen(4)" class="button_display">4</button>
+                    <button onclick="displayscreen('*')" class="button_display">x</button>
+                </div>
+                <div class ="row">
+                    <button onclick="displayscreen(3)" class="button_display">3</button>
+                    <button onclick="displayscreen(2)" class="button_display">2</button>
+                    <button onclick="displayscreen(1)" class="button_display">1</button>
+                    <button onclick="displayscreen('-')" class="button_display">-</button>
+                </div>
+                <div class ="row">
+                    <button onclick="displayscreen('.')" class="button_display">.</button>
+                    <button onclick="displayscreen(0)" class="button_display">0</button>
+                    <button onclick="equalbutton" class="button_display">=</button>
+                    <button onclick="displayscreen('+')" class="button_display">+</button>
+                </div>
+                <div class="row">
+                    <button onclick="Cleardisplay" class="button_display">Clear</button>
+                </div>
+                
+
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
