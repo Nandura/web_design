@@ -1,0 +1,29 @@
+#layout{
+    width: 500px;
+    height: 500px;
+    background: gray;
+    margin: 25px;
+    padding: 26px;
+    padding-left: 18px;
+}
+.username{
+
+    padding: 3px;
+    margin: 9px;
+}
+.password{
+    padding: 3px;
+    margin: 16px;
+
+}
+.loginbutton{
+    
+    width: 10px;
+    padding: 10px;
+    margin: 10px;
+    padding-left: 100px;
+
+}
+.logo{
+    color: aqua;
+}
